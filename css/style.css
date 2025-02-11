@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  .video_bg {
+    display: block;
+    inline-size: 100%;
+    block-size: auto; 
+  }
+  
+  
+  .content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 img {
+    vertical-align: middle;
+    margin-block-start: 10px;
+  }
