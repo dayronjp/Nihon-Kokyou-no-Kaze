@@ -23,7 +23,10 @@ h1 img {
 }
 
 nav {
-  background-color: rgba(85, 85, 85, 0.7);
+  position: sticky;
+  inset-block-start: 0;
+  background-color: rgba(255, 0, 0, 0.7);
+  z-index: 1000;
   color: #fff;
   display: flex;
   align-items: center;
@@ -50,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: #bc002d;
+  color: #000000;
 }
 
 @media (max-inline-size: 600px) {
