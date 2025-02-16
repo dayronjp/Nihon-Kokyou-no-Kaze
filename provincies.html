@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日本 : 故郷の風</title>
+    <link rel="stylesheet" href="css/provincies.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Introdução</a></li>
+            <li><a href="period.html">Períodos</a></li>
+            <li><a href="provincies.html">Províncias</a></li>
+            <li><a href="#">Cultura</a></li>
+        </ul>
+    </nav>
+
+    <h1>Províncias do Japão</h1>
+    <p>Aqui você pode explorar cada uma das províncias de forma interativa, basta clicar na província e você é redirecionado para lá, para os que não tem muito conheciimento do mapa pode ser um desafio.
+        頑張ってくださいね (Se esforce). Uma pequena observação, algumas provincías tem o sufixo 県 (Ken) que significa província, outras tem o sufixo 都 (To) que marca capitais, como pode ver passando o mouse em Tokyo, e também o sufixo 府 (Fu) que é usado para se referir a áreas administrativas no Japão, geralmente cidades grandes que têm um status especial.
+    </p>
+    <div class="map-container" id="map-container">
+        <svg id="japan-map"></svg>
+        <div class="tooltip" id="tooltip"></div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="js/map.js"></script>
+</body>
+</html>
