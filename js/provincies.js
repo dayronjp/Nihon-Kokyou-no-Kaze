@@ -9,8 +9,9 @@ const observer = new IntersectionObserver((entries, observer) => {
     threshold: 0.5
   });
   
-  const images = document.querySelectorAll('.province-img');
+  const images = document.querySelectorAll('.province-img, .province-img1');
   const paragraphs = document.querySelectorAll('p');
+  
   
   images.forEach(image => {
     observer.observe(image);
