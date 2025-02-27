@@ -90,6 +90,22 @@ nav {
     color: black;
   }
 
+  /*IWATE STYLE*/
+  .iwate {
+    background-image: url("../assets/iwate_bg.jpeg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    font-weight: bolder;
+  }
+  .iwate p{
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+    display: inline-block;
+    color: black;
+  }
+
   h1 img {
     padding: 20px;
     vertical-align: middle;
